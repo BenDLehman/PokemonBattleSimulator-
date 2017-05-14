@@ -1,0 +1,120 @@
+/* application.css - Styling labels and specifications for different GUI components in the program */
+
+#introtext {
+   -fx-font-family: 'Pokemon GB';
+   -fx-font-size: 30;
+   -fx-text-alignment: center;
+   -fx-fill: White;
+}
+
+#menustart {
+   -fx-font-family: 'Pokemon Solid';
+   -fx-font-size: 50;
+   -fx-fill: White;
+   -fx-effect: dropshadow( one-pass-box, black, 8, 0.0, 2, 0 );
+   -fx-stroke: blue;
+   -fx-stroke-width: 4;
+   -fx-text-alignment: center;
+}
+
+#menucredits {
+   -fx-font-family: 'Pokemon Solid';
+   -fx-font-size: 50;
+   -fx-fill: White;
+   -fx-effect: dropshadow( one-pass-box, black, 8, 0.0, 2, 0 );
+   -fx-stroke: blue;
+   -fx-stroke-width: 4;
+   -fx-text-alignment: center;
+}
+
+#menutitle {
+   -fx-font-family: 'Pokemon Solid';
+   -fx-font-size: 65;
+   -fx-fill: White;
+   -fx-effect: dropshadow( one-pass-box, black, 8, 0.0, 2, 0 );
+   -fx-stroke: blue;
+   -fx-stroke-width: 4;
+   -fx-text-alignment: center;
+}
+
+#menupokemon {
+   -fx-font-family: 'Pokemon Solid';
+   -fx-font-size: 100;
+   -fx-fill: Yellow;
+   -fx-effect: dropshadow( one-pass-box, black, 8, 0.0, 2, 0 );
+   -fx-stroke: blue;
+   -fx-stroke-width: 4;
+   -fx-text-alignment: center;
+}
+
+#starthover {
+   -fx-font-family: 'Pokemon Solid';
+   -fx-font-size: 60;
+   -fx-fill: ffcb05;
+   -fx-effect: dropshadow( one-pass-box, black, 8, 0.0, 2, 0 );
+   -fx-stroke: blue;
+   -fx-stroke-width: 4;
+   -fx-text-alignment: center;
+}
+
+#creditshover {
+   -fx-font-family: 'Pokemon Solid';
+   -fx-font-size: 60;
+   -fx-fill: ffcb05;
+   -fx-effect: dropshadow( one-pass-box, black, 8, 0.0, 2, 0 );
+   -fx-stroke: blue;
+   -fx-stroke-width: 4;
+   -fx-text-alignment: center;
+}
+
+#battlebuttons {
+   -fx-font-family: 'TeXGyreAdventor';
+   -fx-font-size: 25;
+   -fx-effect: dropshadow( one-pass-box, black, 8, 0.0, 2, 0 );
+   -fx-stroke: blue;
+   -fx-stroke-width: 2;
+   -fx-text-alignment: center;
+   -fx-base: #cececeaa;
+   -fx-border-color: rgb(49, 89, 23);
+   -fx-border-radius: 5;
+   -fx-padding: 3 6 6 6;
+}
+
+#battledialogue {
+   -fx-font-family: 'TeXGyreAdventor';
+   -fx-font-size: 45;
+   -fx-fill: White;
+   -fx-effect: dropshadow( one-pass-box, black, 8, 0.0, 2, 0 );
+   -fx-stroke: black;
+   -fx-stroke-width: 1;
+   -fx-text-alignment: center;
+}
+
+#pokehealth {
+   -fx-font-family: 'TeXGyreAdventor';
+   -fx-font-size: 25;
+   -fx-fill: White;
+   -fx-effect: dropshadow( one-pass-box, black, 8, 0.0, 2, 0 );
+   -fx-text-alignment: center;
+   -fx-base: #cececeaa;
+   -fx-border-color: black;
+   -fx-border-radius: 5;
+   -fx-padding: 3 6 6 6;
+}
+
+#pokehealthbackbar {
+   -fx-effect: dropshadow( one-pass-box, black, 8, 0.0, 2, 0 );
+   -fx-border-color: black;
+   -fx-border-radius: 5;
+}
+
+
+#pokebattleinfo {
+   -fx-font-family: 'TeXGyreAdventor';
+   -fx-font-size: 15;
+   -fx-text-fill: White;
+   -fx-effect: dropshadow( one-pass-box, black, 2, 0.0, 1, 0 );
+   -fx-stroke: black;
+   -fx-stroke-width: .1;
+   -fx-text-alignment: center;
+}
